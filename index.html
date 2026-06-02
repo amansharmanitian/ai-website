@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NEURA AI PRO MAX — Level 6</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+  <!-- SIDEBAR -->
+  <div class="sidebar">
+    <h2>NEURA AI</h2>
+
+    <button onclick="newChat()">New Chat</button>
+    <button onclick="downloadTXT()">Download TXT</button>
+    <button onclick="downloadJSON()">Export JSON</button>
+    <button onclick="startVoice()">🎤 Voice</button>
+  </div>
+
+  <!-- MAIN -->
+  <div class="main">
+
+    <div id="chat"></div>
+
+    <div class="inputBox">
+      <input id="input" placeholder="Ask anything..." />
+      <button onclick="send()">Send</button>
+    </div>
+
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
